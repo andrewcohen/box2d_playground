@@ -97,7 +97,7 @@ class World
     topWall      = new Entity(@world, w - 4, 2, w, 2, b2Body.b2_staticBody)
     bottomWall   = new Entity(@world, w - 4, 2, w, h * 2 - 2, b2Body.b2_staticBody)
 
-    platform   = new Rect(@world, w , 2, w - 58  , h / 2 , b2Body.b2_staticBody)
+    platform   = new Rect(@world, w , 2, w - 60  , h / 2 , b2Body.b2_staticBody)
 
     bX = 50
     bSpacing = 20
