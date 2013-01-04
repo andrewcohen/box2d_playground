@@ -184,10 +184,10 @@ window.requestAnimFrame = (function(){
         new Rect(this.world, 4, 12, bX, h / 2 + 198, b2Body.b2_dynamicBody);
         bX += bSpacing;
       }
-      new Circle(this.world, 18, 12, bX + 8, h / 2 + 198, b2Body.b2_dynamicBody);
+      new Circle(this.world, 12, 12, bX + 8, h / 2 + 198, b2Body.b2_dynamicBody);
       platform = new Rect(this.world, w, 2, w + 80, h / 2 + 300, b2Body.b2_staticBody);
       bX = 102;
-      for (i = _l = 1; _l <= 44; i = ++_l) {
+      for (i = _l = 1; _l <= 45; i = ++_l) {
         new Rect(this.world, 4, 12, bX, h / 2 + 297, b2Body.b2_dynamicBody);
         bX += bSpacing;
       }

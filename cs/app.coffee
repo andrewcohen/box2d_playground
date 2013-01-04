@@ -126,12 +126,12 @@ class World
       new Rect(@world, 4, 12, bX, h / 2 + 198  , b2Body.b2_dynamicBody)
       bX += bSpacing
 
-    new Circle(@world, 18, 12, bX + 8, h / 2 + 198  , b2Body.b2_dynamicBody)
+    new Circle(@world, 12, 12, bX + 8, h / 2 + 198  , b2Body.b2_dynamicBody)
 
     #row 4
     platform   = new Rect(@world, w , 2, w + 80  , h / 2 + 300 , b2Body.b2_staticBody)
     bX = 102
-    for i in [1..44]
+    for i in [1..45]
       new Rect(@world, 4, 12, bX, h / 2 + 297 , b2Body.b2_dynamicBody)
       bX += bSpacing
 
